@@ -26,4 +26,10 @@ int main()
     // Сортируем входной массив
     sort(v.begin(), v.end());
     int idx;
-    i
+    idx = bsearch(v, 0, v.size(), query);
+    if (idx != -1)
+        cout << "бинарный поиск: нашли по индексу" << idx;
+    else
+	cout << "бинарный поиск: не нашли";
+    return 0;
+}
