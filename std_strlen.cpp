@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstring>
 
 int main() {
 	char str[] = "Hello, world!";
