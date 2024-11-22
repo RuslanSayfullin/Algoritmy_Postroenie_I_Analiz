@@ -6,7 +6,7 @@ using namespace std;
 
 int bsearch(const vector<int> &arr, int l, int r, int q)
 {
-    while (l <= r)
+    while (l<=r)
     {
         int mid = l + (r-l)/2;
 	if (arr[mid] == q) return mid;
